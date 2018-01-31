@@ -6,5 +6,7 @@ node_modules/
 platforms/
 www/static
 www/index.html
-.DS_Store 
-*/.DS_Store 
+.DS_Store
+*/.DS_Store
+.npm-debug.log
+*/.npm-debug.log
