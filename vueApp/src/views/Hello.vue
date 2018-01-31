@@ -28,7 +28,9 @@
       }
     },
     mounted() {
-
+      Axios.get({},'http://www.weather.com.cn/data/sk/101190408.html').then((res)=>{
+        console.log(res);
+      })
     }
   }
 </script>

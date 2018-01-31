@@ -19,18 +19,31 @@ if (window.location.protocol === 'file:' || window.location.port === '3000') {
     document.body.appendChild(cordovaScript)
 }
 
-Vue.cordova.on('deviceready', () => {
+// 设备上运行
+// document.addEventListener('deviceready', function() {
+//   new Vue({
+//     el: '#app',
+//     router,
+//     template: '<App/>',
+//     components: { App },
+//     data: function () {
+//       return {
+//         cordova: Vue.cordova
+//       }
+//     }
+//   })
+//   window.navigator.splashscreen.hide()
+// }, false);
 
-  new Vue({
-    el: '#app',
-    router,
-    template: '<App/>',
-    components: { App },
-    data: function () {
-      return {
-        cordova: Vue.cordova
-      }
+// 浏览器上运行
+new Vue({
+  el: '#app',
+  router,
+  template: '<App/>',
+  components: { App },
+  data: function () {
+    return {
+      cordova: Vue.cordova
     }
-  })
-
-});
+  }
+})
