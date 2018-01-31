@@ -1,0 +1,57 @@
+{
+  "name": "ionic-cordova-vue-seed",
+  "version": "1.0.0",
+  "description": "A template with ionic, cordova, vue support ionic serve && ionic build android && develop by vue.",
+  "keywords": [
+    "util",
+    "functional",
+    "server",
+    "client",
+    "browser"
+  ],
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "contributors": [],
+  "dependencies": {
+    "cordova-android": "^6.2.3",
+    "cordova-plugin-crosswalk-webview": "^2.3.0",
+    "cordova-plugin-device": "^1.1.4",
+    "cordova-plugin-inappbrowser": "^1.7.1",
+    "cordova-plugin-splashscreen": "^4.0.3",
+    "cordova-plugin-statusbar": "^2.2.1"
+  },
+  "devDependencies": {},
+  "cordovaPlugins": [
+    "cordova-plugin-device",
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-statusbar",
+    "cordova-sqlite-storage",
+    "cordova-plugin-file"
+  ],
+  "cordovaPlatforms": [
+    "ios",
+    {
+      "platform": "android",
+      "version": "6.1.2",
+      "locator": "android@6.1.2"
+    }
+  ],
+  "cordova": {
+    "platforms": [],
+    "plugins": {
+      "cordova-plugin-crosswalk-webview": {
+        "XWALK_VERSION": "23+",
+        "XWALK_LITEVERSION": "xwalk_core_library_canary:17+",
+        "XWALK_COMMANDLINE": "--disable-pull-to-refresh-effect",
+        "XWALK_MODE": "embedded",
+        "XWALK_MULTIPLEAPK": "true"
+      },
+      "cordova-plugin-device": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-whitelist": {}
+    }
+  }
+}

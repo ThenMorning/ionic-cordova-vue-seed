@@ -1,0 +1,36 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-crosswalk-webview": {
+            "PACKAGE_NAME": "com.hec.mobile.commerce"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.hec.mobile.commerce"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.hec.mobile.commerce"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.hec.mobile.commerce"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.hec.mobile.commerce"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "com.hec.mobile.commerce"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.hec.mobile.commerce"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.hec.mobile.commerce"
+        }
+    },
+    "dependent_plugins": {}
+}
