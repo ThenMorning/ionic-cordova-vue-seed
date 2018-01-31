@@ -8,7 +8,7 @@ Support cordova-plugin to make nice Hybrid-Vue come true.
 
 # install
 
-1.   sudo git clone  https://rdc.hand-china.com/gitlab/ZwhLab/hybridVue.git
+1.   sudo git clone  https://github.com/zhaowanhua/ionic-cordova-vue-seed
 2.   cd ionic-cordova-vue-seed
 3.   cd vueApp
 4.   sudo npm run dev
