@@ -1,1 +1,2 @@
-*.vue linguist-language=vue
+*.h linguist-language=swift
+*.m linguist-language=swift
