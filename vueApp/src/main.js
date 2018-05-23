@@ -4,12 +4,16 @@ import Vue from 'vue'
 import App from './App'
 import router from './router/route'
 import VueCordova from 'vue-cordova'
+import axios from 'axios'
+
 
 Vue.config.productionTip = false
 
 Vue.use(VueCordova, {
     optionTestKey: 'optionTestValue'
 })
+
+Vue.prototype.$ajax = axios;
 
 // add cordova.js only if serving the app through file://
 if (window.location.protocol === 'file:' || window.location.port === '3000') {

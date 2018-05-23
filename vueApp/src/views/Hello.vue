@@ -5,7 +5,6 @@
 </template>
 
 <script>
-  import Axios from "@/util/AxiosPlugin";
   export default {
     name: 'hello',
     data() {
@@ -28,9 +27,6 @@
       }
     },
     mounted() {
-      Axios.get({},'http://www.weather.com.cn/data/sk/101190408.html').then((res)=>{
-        console.log(res);
-      })
     }
   }
 </script>
